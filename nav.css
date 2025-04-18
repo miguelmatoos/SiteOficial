@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Roboto-Flex";
+    src: url(fontes/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)format("truetype");
+}
+/* CSS Document */
+nav {
+    background-color: white;
+    padding: 6px;
+    font-family: "Roboto-Flex", sans-serif;
+    margin: 5px 0px;
+    height: fit-content;
+    box-shadow: 3px 3px 2px black;
+
+}
+
+nav > h2 {
+    margin: 0px;
+}
+nav > article {
+    background-color: rgb(255, 255, 255);
+    display: none;
+    margin: auto;
+    width: 600px;
+    height: fit-content;
+    padding: 6px;
+    font-size: 1.25em;
+}
+
+nav > article > a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+}
+nav:hover > article {
+    display: block;
+    box-shadow: 3px 3px 2px black;
+}
+
+nav:hover {
+    background-color: #00a2ff;
+}
+
+nav:hover >h2 {
+    display: none;
+}
+nav > article > .html5::after {
+    content: "HTML";
+    padding: 3px;
+    font: 600 0.5em "Roboto-Flex", sans-serif;
+    margin: 5px;
+    background-color: orangered;
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px black;
+}
+
+nav > article > .css3::after {
+    content: "CSS";
+    padding: 3px;
+    font: 600 0.5em "Roboto-Flex", sans-serif;
+    margin: 5px;
+    background-color: dodgerblue;
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px black;
+}

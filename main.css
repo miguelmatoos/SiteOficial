@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Roboto-Flex";
+    src: url(fontes/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)format("truetype");
+}
+
+main {
+    background-color: white;
+    padding: 1em;
+    margin: auto;
+    height: fit-content;
+    text-indent: 1.5em;
+    box-shadow: 3px 3px 2px black;
+}
