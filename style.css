@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: "Roboto-Flex";
+    src: url(fontes/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf)format("truetype");
+}
 /* CSS Document */
 body {
     background-color: #00a2ff;
